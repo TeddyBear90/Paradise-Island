@@ -131,6 +131,13 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+// tutaj umieszczamy black-bars-color ponieważ trochę wyżej go nadaliśmy w css. Reeguła kaskadowości. Żeby go zmienić już musi być nadany wyżej
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background-color: $dark;
+}
+
 // HEADER
 
 .header {
